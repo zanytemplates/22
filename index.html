@@ -1,0 +1,16 @@
+---
+layout: default
+title: Beranda
+---
+
+<h2>Artikel Terbaru</h2>
+
+<div class="blog-grid">
+  {% for post in site.posts limit:6 %}
+    <div class="blog-card">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url | relative_url }}">Baca selengkapnya →</a>
+    </div>
+  {% endfor %}
+</div>
