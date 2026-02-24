@@ -1,0 +1,12 @@
+title: Aqiqah Berkah
+description: Jasa Aqiqah Profesional & Amanah
+baseurl: ""
+url: "https://username.github.io"
+
+markdown: kramdown
+theme: null
+
+permalink: /:title/
+
+paginate: 6
+paginate_path: "/blog/page:num/"
